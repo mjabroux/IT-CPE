@@ -22,7 +22,7 @@ depends 'cpe_launchd'
 ### API Cookbooks
 depends 'cpe_applocker'
 depends 'cpe_dconf'
-depends 'cpe_deprecation_notifier'
+# depends 'cpe_deprecation_notifier' # Removing as not in Repo anymore.
 depends 'cpe_flatpak'
 depends 'cpe_gnome_software'
 # depends 'cpe_hosts' # requires 'line' community cookbook
@@ -34,7 +34,7 @@ depends 'cpe_powermanagement'
 depends 'cpe_preferencepanes'
 depends 'cpe_profiles'
 depends 'cpe_remote'
-depends 'cpe_spotlight'
+# depends 'cpe_spotlight' # Removing as not in Repo anymore.
 depends 'cpe_symlinks'
 depends 'cpe_win_telemetry'
 

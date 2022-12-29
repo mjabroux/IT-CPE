@@ -43,11 +43,11 @@ end
 
 if node.macos?
   run_list += [
-    'cpe_deprecation_notifier',
+    # 'cpe_deprecation_notifier', # Removing as not in Repo anymore.
     'cpe_munki',
     'cpe_powermanagement',
     'cpe_preferencepanes',
-    'cpe_spotlight',
+    # 'cpe_spotlight', # Removing as not in Repo anymore.
     # Here Be Dragons... Ordering is important.
     # launchd and profiles need to be last, as other apis depend on these
     'cpe_launchd',
